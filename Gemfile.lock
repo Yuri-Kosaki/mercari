@@ -429,7 +429,7 @@ DEPENDENCIES
   fog-aws
   font-awesome-rails
   gretel
-  haml-rails
+  haml-rails (= 1.0.0)
   jbuilder (~> 2.5)
   jp_prefecture
   jquery-rails
