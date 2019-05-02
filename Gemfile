@@ -49,7 +49,6 @@ group :development, :test do
   gem 'faker'
   gem 'rails-controller-testing'
   gem 'rails-erd'
-  gem 'capistrano-yarn'
 end
 
 group :development do

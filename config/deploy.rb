@@ -55,9 +55,7 @@ set :ssh_options, auth_methods: ['publickey'],
 set :unicorn_pid, -> { "#{shared_path}/tmp/pids/unicorn.pid" }
 set :unicorn_config_path, -> { "#{current_path}/config/unicorn.rb" }
 set :keep_releases, 5
-set :yarn_flags, "--prefer-offline --production --no-progress"
-set :yarn_roles, :app
-set :yarn_bin, '~/local/bin/yarn'
+
 
 after 'deploy:publishing', 'deploy:restart'
 namespace :deploy do
