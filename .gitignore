@@ -30,4 +30,4 @@
 /node_modules
 yarn-debug.log*
 .yarn-integrity
-/config/credentials.yml.enc
+/vendor/bundle
